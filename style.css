@@ -1,0 +1,27 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+
+.discount{background-color: #149f39;
+font-size: 1.6rem;
+padding: 5px 10px;
+color: white;
+font-family: Roboto;
+font-weight: 300;
+margin-left: 55px;}
+
+.heading{font-size: 7.2rem;
+    font-family: Roboto;
+color: black;
+font-weight: 400;
+margin-left: 50px;}
+
+.text{font-family: Roboto;
+font-size: 1.6rem;
+margin-left: 55px;}
+
+
+.button{margin-left: 55px;}

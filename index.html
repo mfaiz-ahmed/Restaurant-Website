@@ -17,12 +17,18 @@
         <div class="container-fluid">
           <img class="navbar-brand ms-4" src="./Assets/logo.png" alt="logo">
         </div>
+        <ul class="d-flex gap-5 fs-2 mt-5 mb-5">
+          <li><a class="text-decoration-none text-black" href="#home">Home</a></li>
+          <li><a class="text-decoration-none text-black" href="#Menu-2">Menu</a></li>
+          <li><a class="text-decoration-none text-black" href="#about">About&nbsp;Us</a></li>
+        </ul>
+
       </nav>
     <!-- navbar ended  -->
 </header>    
 <main class="container">
     <!-- intro started  -->
-    <div class="ms-5 container mt-3 d-flex justify-content-center">
+    <div id="home" class="ms-5 container mt-3 d-flex justify-content-center">
         <div class="container"><img src="./Assets/hero_image.png" alt="Food Plate"></div>
         <div class="container">
             <span class="green pointer">50% Off on All Products</span>
@@ -37,7 +43,7 @@
 
             <!-- grid started  -->
             <div class="d-flex margin-top container justify-content-center gap-5">
-              <div class="d-flex">
+              <div class="d-flex pointer">
                 <div>
                   <img src="./Assets/discount.png" alt="Discount">
                 </div>
@@ -46,7 +52,7 @@
                   <p class="fs-3">"Unlock exclusive savings with our discount voucher today!"</p>
                 </div>
               </div>
-              <div class="d-flex">
+              <div class="d-flex pointer">
                 <div>
                   <img src="./Assets/fresh.png" alt="Fresh">
                 </div>
@@ -55,7 +61,7 @@
                   <p class="fs-3">"Savor the goodness of fresh, healthy food to nourish your body and soul."</p>
                 </div>
               </div>
-              <div class="d-flex">
+              <div class="d-flex pointer">
                 <div>
                   <img src="./Assets/delivery.png" alt="Delivery">
                 </div>
@@ -70,11 +76,11 @@
             <div class="divider container"></div>
             <!-- menu started  -->
             <br /><br /><br />
-            <div class="green menu text-center pointer">Our Menu</div>
+            <div id="Menu-2" class="green menu text-center pointer">Our Menu</div>
             <br /><br /><br />
             <h1 class="text-center fw-bolder">Explore Our Menu</h1>
         <!-- menu grid started  -->
-        <div class="grid container">
+        <div class="grid container mt-5">
           <div class="item-1">
             <img class="grid-img" src="./Assets/grid_image1.png" alt="Image 1">
           </div>
@@ -102,7 +108,7 @@
       </main>
       <!-- footer started  -->
       <br /><br /><br /><br />
-      <footer class="bg-color">
+      <footer id="about" class="bg-color">
 <div class="mt-5 container d-flex justify-content-around">
   <div>
     <img src="./Assets/logo.png" alt="logo">

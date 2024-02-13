@@ -69,3 +69,20 @@ grid-template-areas: "I1 I1 I2 I3"
 transition: 0.2s ease-in-out;}
 
 .grid-img:hover{transform: scale(1.05);}
+
+.bg-color{background-color: #fff0db;}
+
+li{list-style: none;}
+
+.gray{color: gray;}
+
+.footer-margin{margin-left: 20px;}
+
+.input{    padding: 5px 40px;
+    margin-bottom: 10px;
+width: 250px;
+font-size: 1.6rem;}
+
+
+
+.mar-rgt{margin-left: 20px;}
